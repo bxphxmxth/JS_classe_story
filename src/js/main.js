@@ -25,6 +25,8 @@ ajouter("Mouna", "8h45 Mouna rejoint la classe");
 ajouter("Jean", "8h45 Jean rejoint la classe");
 
 retirer("Stan", "Stan et Jean suivent le chat", 2);
+retirer("Jean", "jean et Jean suivent le chat", 2);
+
 console.log(classeCoding19);
 
 
@@ -32,7 +34,7 @@ ajouter("Ali", "Ali rentre en classe et fait un max de bruit");
 ajouter("Agim","Agim rentre en classe et fait un max de bruit");
 
 ajouter("Antoine", "Antoine rentre en classe");
-retirer("Anoine","Antoine redescend prendre un café avant le cours");
+retirer("Antoine","Antoine redescend prendre un café avant le cours",1);
 
 ajouter("Yassine", "Yassine arrive avec sa petite plante dans les mains");
 
